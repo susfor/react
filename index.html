@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>So-and-so's React Assignment</title>
+    <title>React Assignment</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    
+    <style>
+      body {
+        text-align: center;
+        font-family:verdana;
+      }
+      .testspace {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        position: relative;
+        border: 3px solid green;
+      }
+
+      p {
+    	font-size:300%;
+      }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
   </head>
   <body>
-    YOUR PROJECT HERE
+    <h1>Simple Math Test</h1>
+    <div class="testspace">
+		<p id="math"></p>
+		<h3> Answer here: </h3>
+		<input type="text" id="answer" value="">
+		<button id="button1">Check answer</button> <br>
+		<h3 id="feedback"></h3>
+
+    </div> 
+    
+    
+    <script src="scripts/react.js"></script>
   </body>
 </html>
