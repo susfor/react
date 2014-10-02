@@ -9,6 +9,7 @@ $(document).ready(function(){
 
   $("#math").html(mathProblem());
   
+  //randomize two numbers 
   function mathProblem() {
       x = Math.floor((Math.random() * 10) + 1); 
       y = Math.floor((Math.random() * 10) + 1); 
